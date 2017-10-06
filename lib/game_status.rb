@@ -59,9 +59,9 @@ end
 def winner(board)
   winner1 = "X"
   winner2 = "O"
-  winning_combo = gets.strip
-  if won?(board) == true && winning_combo == char1
-    return winner1
+  
+  if won?(board) == true
+    return winning_combo
   elsif won?(board) == true && winning_combo == char2
     return winner2
   end
