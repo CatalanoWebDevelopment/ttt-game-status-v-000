@@ -59,8 +59,8 @@ end
 def winner(board)
   winner1 = "X"
   winner2 = "O"
-  win?(board)
-  if winning_combo == winner1
-    return "X"
+  winning_combo = win?(board)
+  if won?(board)
+    return winning_combo
   end
 end
