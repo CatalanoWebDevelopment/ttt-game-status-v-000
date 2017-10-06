@@ -63,4 +63,5 @@ def winner(board)
     return winner1
   elsif won?(board) == true && winning_combo == char2
     return winner2
+  end
 end
