@@ -57,10 +57,9 @@ def over?(board)
 end
 
 def winner(board)
-  winner1 = "X"
-  winner2 = "O"
+  winner = "X"
   winning_combo = won?(board)
-  if won?(board)
-    return winning_combo
+  if winning_combo
+    return winner
   end
 end
