@@ -59,10 +59,6 @@ end
 def winner(board)
   winner1 = "X"
   winner2 = "O"
-
-  if won?(board) == true
+  if won?(board)
     return winning_combo
-  elsif won?(board) == true && winning_combo == char2
-    return winner2
-  end
 end
