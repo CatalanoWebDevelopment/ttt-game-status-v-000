@@ -61,5 +61,7 @@ def winner(board)
   index = winning_combo[0]
   if winning_combo
     return board[index]
+  else
+    return nil
   end
 end
