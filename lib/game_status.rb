@@ -60,7 +60,7 @@ def winner(board)
   winner1 = "X"
   winner2 = "O"
   winning_combo = won?(board)
-  if won?(board) && winning_combo == "X"
+  if won?(board)
     return winning_combo
   end
 end
