@@ -49,8 +49,8 @@ def over?(board)
     return true
   elsif full?(board) == false
     return true
-  elsif draw?(board) == false
-    return true
+  # elsif draw?(board) == false
+  #   return true
   else
     return true
   end
