@@ -52,6 +52,6 @@ def over?(board)
   elsif draw?(board) == false
     return true
   else
-    return true
+    return false
   end
 end
