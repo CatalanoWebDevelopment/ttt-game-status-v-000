@@ -61,4 +61,5 @@ def winner(board)
   winner2 = "O"
   if won?(board)
     return winning_combo
+  end
 end
