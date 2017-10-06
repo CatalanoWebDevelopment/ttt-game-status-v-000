@@ -50,6 +50,7 @@ def over?(board)
   elsif full?(board) == false
     return true
   else
+
     return false
   end
 end
